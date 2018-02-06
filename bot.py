@@ -101,15 +101,7 @@ async def on_message(message):
             await client.send_message(message.channel, "```ml\n" + id + "```")
         else:
             await client.send_message(message.channel, "這應該是四級包喔=ˇ=")
-    elif message.content.startswith(prefix + '地震'):
-        await client.send_message(message.channel, "02/04 22:13	規模5.5	深度10.0	花蓮縣政府北偏東方 23.6 公里\🤟")
-        #msg = '\nPlayer:林建鈞\nServer:NA\n在近20場遊戲中 平均擊殺:8.56 平均傷害:427 平均存活時間21:43\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\n'
-        #ml = '```ml{MSG}```'.format(MSG=msg)
-        #advance_pubg()
-        #await client.send_message(message.channel, ml)
     elif message.content.startswith(prefix + 'debug'):
-        #msg = '\nPlayer:林建鈞\nServer:NA\n在近20場遊戲中 平均擊殺:8.56 平均傷害:427 平均存活時間21:43\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\nSolo:#1234\n  KD:0.5\n  Avg. Damage:58\n'
-        #ml = '```ml{MSG}```'.format(MSG=msg)
         advance_pubg()
         #await client.send_message(message.channel, ml)
 
